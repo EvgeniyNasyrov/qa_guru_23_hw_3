@@ -14,15 +14,11 @@ def driver():
     driver.quit()
 
 
-def test_selenium_web(driver):
+def test_google(driver):
     url = "https://www.google.com/"
     driver.get(url)
     assert driver.title == "Google"
     assert driver.current_url == url
-
-
-
-
 
 
 def test_github(driver):
