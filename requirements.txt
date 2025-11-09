@@ -1,0 +1,6 @@
+pytest==9.0.0
+selenium==4.38.0
+webdriver-manager==4.0.2
+flake8==7.3.0
+black==25.9.0
+isort==7.0.0
